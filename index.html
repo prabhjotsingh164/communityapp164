@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fb194b5c23.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="search-container">
+            
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          
+       
+      </div>
+        <a href="#about" class="collapsible"><i class="fas fa-users"></i>Groups</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">Group 1</a></li>
+                <li><a href="#" class="subgrp">Group 2</a></li>
+                <li><a href="#" class="subgrp">Group 3</a></li>
+                <li><a href="#" class="subgrp">Group 4</a></li>
+            </ul>
+          </div>
+        <a href="#services" class="collapsible"><i class="fas fa-user-alt"></i>People</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">People 1</a></li>
+                <li><a href="#" class="subgrp">People 2</a></li>
+                <li><a href="#" class="subgrp">People 3</a></li>
+                <li><a href="#" class="subgrp">People 4</a></li>
+            </ul>    
+        </div>
+        <a href="#clients" class="collapsible"><i class="far fa-file-image"></i>Files</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">File 1</a></li>
+                <li><a href="#" class="subgrp">File 2</a></li>
+                <li><a href="#" class="subgrp">File 3</a></li>
+                
+            </ul>    
+        </div>
+        <a href="#contact" class="collapsible"><i class="fas fa-cog"></i>Settings</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">New Group</a></li>
+                <li><a href="#" class="subgrp">Profile</a></li>
+                <li><a href="#" class="subgrp">Archived</a></li>
+                <li><a href="#" class="subgrp">Starred</a></li>
+                <li><a href="#" class="subgrp">Logout</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div class="sidenav">
+        <div class="search-container">
+            
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            
+         
+        </div>
+
+        <a href="#about" class="collapsible"><i class="fas fa-users"></i>Groups</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">Group 1</a></li>
+                <li><a href="#" class="subgrp">Group 2</a></li>
+                <li><a href="#" class="subgrp">Group 3</a></li>
+                <li><a href="#" class="subgrp">Group 4</a></li>
+            </ul>
+          </div>
+        <a href="#services" class="collapsible"><i class="fas fa-user-alt"></i>People</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">People 1</a></li>
+                <li><a href="#" class="subgrp">People 2</a></li>
+                <li><a href="#" class="subgrp">People 3</a></li>
+                <li><a href="#" class="subgrp">People 4</a></li>
+            </ul>    
+        </div>
+        <a href="#clients" class="collapsible"><i class="far fa-file-image"></i>Files</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">File 1</a></li>
+                <li><a href="#" class="subgrp">File 2</a></li>
+                <li><a href="#" class="subgrp">File 3</a></li>
+                
+            </ul>    
+        </div>
+        <a href="#contact" class="collapsible"><i class="fas fa-cog"></i>Settings</a>
+        <div class="content">
+            <ul>
+                <li><a href="#" class="subgrp">New Group</a></li>
+                <li><a href="#" class="subgrp">Profile</a></li>
+                <li><a href="#" class="subgrp">Archived</a></li>
+                <li><a href="#" class="subgrp">Starred</a></li>
+                <li><a href="#" class="subgrp">Logout</a></li>
+            </ul>
+        </div>
+
+
+      
+      </div>
+      
+      
+      <div class="main">
+        <div class="container">
+            <img src="/images/chat pic.png" alt="Avatar" style="width:100%;">
+            <p>Hello. How are you today?</p>
+            <span class="time-right">11:00</span>
+          </div>
+          
+          <div class="container darker">
+            <img src="/images/chat pic.png" alt="Avatar" class="right" style="width:100%;">
+            <p>Hey! I'm fine. Thanks for asking!</p>
+            <span class="time-left">11:01</span>
+          </div>
+          
+          <div class="container">
+            <img src="/images/chat pic.png" alt="Avatar" style="width:100%;">
+            <p>Sweet! So, what do you wanna do today?</p>
+            <span class="time-right">11:02</span>
+          </div>
+          
+          <div class="container darker">
+            <img src="/images/chat pic.png" alt="Avatar" class="right" style="width:100%;">
+            <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+            <span class="time-left">11:05</span>
+          </div>
+         
+          <div class="footer">
+              <input type="text" class="message_sender" placeholder="Write Message Here.....">
+              <a href="" class="send"><i class="far fa-arrow-alt-circle-right"></i></a>
+              <a href="" class="send"><i class="fas fa-paperclip"></i></a>
+              <a href="" class="send"><i class="fas fa-microphone"></i></a>
+          </div>
+        
+        
+        
+        </div>
+      
+    
+
+    <script src="js/index.js"></script>   
+</body>
+</html>
